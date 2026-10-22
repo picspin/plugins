@@ -30,7 +30,8 @@
       "schedule": {
         "cst_deepseek_offpeak": true,
         "offpeak_mapping": {
-          "smart-router": "group/tier-dynamic-value"
+          "smart-router": "group/tier-dynamic-value",
+          "group/smart-router": "group/tier-dynamic-value"
         }
       },
       "constraints": {
@@ -41,7 +42,8 @@
         }
       },
       "mapping": {
-        "smart-router": "group/tier-fast-reflex"
+        "smart-router": "group/tier-fast-reflex",
+        "group/smart-router": "group/tier-fast-reflex"
       }
     }
   }
